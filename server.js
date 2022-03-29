@@ -20,6 +20,7 @@ const express = require('express');
 const {CloudTasksClient} = require('@google-cloud/tasks');
 const {PubSub} = require('@google-cloud/pubsub');
 
+console.log('hahhahahha');
 
 const topicNameOrId = 'my-topic';
 
